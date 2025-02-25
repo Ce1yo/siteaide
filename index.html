@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aides et Services - Servizen</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="https://www.servizen.fr" target="_blank">
+                    <img src="images/Logo png 2.png" alt="Servizen">
+                </a>
+            </div>
+            <ul>
+                <li><a href="#services">Nos services</a></li>
+                <li><a href="#aides">Les aides</a></li>
+                <li><a href="https://www.servizen.fr/contact/" target="_blank">Contact</a></li>
+                <li><a href="https://www.servizen.fr/devis" target="_blank" class="devis-button">Demander un devis</a></li>
+            </ul>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        <div class="menu-overlay"></div>
+    </header>
+
+    <main>
+        <section id="aides" class="section">
+            <h1>Les Aides Disponibles</h1>
+            <div class="aide-grid">
+                <div class="aide-card" data-modal="apa-modal">
+                    <i class="fas fa-user-shield aide-icon"></i>
+                    <h2>APA</h2>
+                    <p>Allocation Personnalisée d'Autonomie</p>
+                </div>
+                
+                <div class="aide-card" data-modal="pch-modal">
+                    <i class="fas fa-wheelchair aide-icon"></i>
+                    <h2>PCH</h2>
+                    <p>Prestation de Compensation du Handicap</p>
+                </div>
+                
+                <div class="aide-card" data-modal="credit-modal">
+                    <i class="fas fa-percentage aide-icon"></i>
+                    <h2>Crédit d'Impôt</h2>
+                    <p>50% de réduction d'impôt</p>
+                </div>
+
+                <div class="aide-card" data-modal="paje-modal">
+                    <i class="fas fa-baby aide-icon"></i>
+                    <h2>PAJE</h2>
+                    <p>Prestation d'Accueil du Jeune Enfant</p>
+                </div>
+
+                <div class="aide-card" data-modal="adm-modal">
+                    <i class="fas fa-hand-holding-heart aide-icon"></i>
+                    <h2>Aide à domicile momentanée</h2>
+                    <p>Aide temporaire AGIRC-ARRCO</p>
+                </div>
+
+                <div class="aide-card" data-modal="sortirplus-modal">
+                    <i class="fas fa-walking aide-icon"></i>
+                    <h2>Sortir Plus</h2>
+                    <p>Accompagnement hors du domicile</p>
+                </div>
+
+                <div class="aide-card" data-modal="amd-modal">
+                    <i class="fas fa-home aide-icon"></i>
+                    <h2>AMD</h2>
+                    <p>Aide Ménagère à Domicile</p>
+                </div>
+
+                <div class="aide-card" data-modal="mtp-modal">
+                    <i class="fas fa-user-nurse aide-icon"></i>
+                    <h2>MTP</h2>
+                    <p>Majoration pour Tierce Personne</p>
+                </div>
+
+                <div class="aide-card" data-modal="aspa-modal">
+                    <i class="fas fa-user-friends aide-icon"></i>
+                    <h2>ASPA</h2>
+                    <p>Allocation de Solidarité aux Personnes Âgées</p>
+                </div>
+
+                <div class="aide-card" data-modal="asi-modal">
+                    <i class="fas fa-user-shield aide-icon"></i>
+                    <h2>ASI</h2>
+                    <p>Allocation Supplémentaire d'Invalidité</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <h1>Nos Services</h1>
+            <div class="service-grid">
+                <!-- Aide à la personne -->
+                <div class="service-card" data-modal="aide-personne-modal">
+                    <img src="images/Auxiliaire de vie.png" alt="Aide à la personne" class="service-img">
+                    <i class="fas fa-hands-helping service-icon"></i>
+                    <h3>Aide à la personne</h3>
+                    <p>Assistance quotidienne et soins personnalisés</p>
+                </div>
+
+                <!-- Aide ménagère -->
+                <div class="service-card" data-modal="aide-menagere-modal">
+                    <img src="images/Ménage.png" alt="Aide ménagère" class="service-img">
+                    <i class="fas fa-home service-icon"></i>
+                    <h3>Aide ménagère</h3>
+                    <p>Entretien de votre domicile</p>
+                </div>
+
+                <!-- Transport accompagné -->
+                <div class="service-card" data-modal="transport-modal">
+                    <img src="images/Transport.png" alt="Transport" class="service-img">
+                    <i class="fas fa-car service-icon"></i>
+                    <h3>Transport accompagné</h3>
+                    <p>Déplacements et rendez-vous</p>
+                </div>
+
+                <!-- Jardinage -->
+                <div class="service-card" data-modal="jardinage-modal">
+                    <img src="images/Jardinage.png" alt="Jardinage" class="service-img">
+                    <i class="fas fa-leaf service-icon"></i>
+                    <h3>Jardinage</h3>
+                    <p>Entretien de votre jardin</p>
+                </div>
+
+                <!-- Bricolage -->
+                <div class="service-card" data-modal="bricolage-modal">
+                    <img src="images/Bricolage.png" alt="Bricolage" class="service-img">
+                    <i class="fas fa-tools service-icon"></i>
+                    <h3>Bricolage</h3>
+                    <p>Petits travaux et réparations</p>
+                </div>
+
+                <!-- Garde d'enfants -->
+                <div class="service-card" data-modal="garde-enfants-modal">
+                    <img src="images/Garde d'enfants.png" alt="Garde d'enfants" class="service-img">
+                    <i class="fas fa-child service-icon"></i>
+                    <h3>Garde d'enfants</h3>
+                    <p>Garde et activités pour enfants</p>
+                </div>
+
+                <!-- Informatique -->
+                <div class="service-card" data-modal="informatique-modal">
+                    <img src="images/Informatique.png" alt="Assistance informatique" class="service-img">
+                    <i class="fas fa-laptop service-icon"></i>
+                    <h3>Assistance informatique</h3>
+                    <p>Aide et formation informatique</p>
+                </div>
+
+                <!-- Téléassistance -->
+                <div class="service-card" data-modal="teleassistance-modal">
+                    <img src="images/Téléassistance.png" alt="Téléassistance" class="service-img">
+                    <i class="fas fa-phone-alt service-icon"></i>
+                    <h3>Téléassistance</h3>
+                    <p>Assistance et sécurité 24/7</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modales pour les aides -->
+        <div id="apa-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-user-shield service-icon"></i> Allocation Personnalisée d'Autonomie (APA)</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Qui peut en bénéficier ?</h3>
+                        <ul>
+                            <li>Personnes âgées de 60 ans et plus</li>
+                            <li>En perte d'autonomie (GIR 1 à 4)</li>
+                            <li>Résidant en France de façon stable et régulière</li>
+                            <li>Sans condition de ressources (participation financière variable)</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">En quoi consiste cette aide ?</h3>
+                        <ul>
+                            <li>Financement des dépenses liées à la perte d'autonomie</li>
+                            <li>Aide à domicile pour les actes essentiels de la vie</li>
+                            <li>Aménagement du logement</li>
+                            <li>Matériel et aides techniques</li>
+                            <li>Services de téléassistance</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Comment en faire la demande ?</h3>
+                        <p>La demande doit être effectuée auprès :</p>
+                        <ul>
+                            <li>Du Conseil départemental de votre lieu de résidence</li>
+                            <li>Du Centre Communal d'Action Sociale (CCAS)</li>
+                            <li>Des services sociaux de proximité</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.service-public.fr/particuliers/vosdroits/F10009" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur cette aide
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="pch-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-wheelchair service-icon"></i> Prestation de Compensation du Handicap (PCH)</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Qui peut en bénéficier ?</h3>
+                        <ul>
+                            <li>Personnes handicapées de moins de 60 ans</li>
+                            <li>Résidant en France de façon stable et régulière</li>
+                            <li>Présentant une difficulté absolue ou deux difficultés graves</li>
+                            <li>Sans condition de ressources (participation financière variable)</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">En quoi consiste cette aide ?</h3>
+                        <ul>
+                            <li>Aide humaine pour les actes essentiels</li>
+                            <li>Aides techniques et matérielles</li>
+                            <li>Aménagement du logement et du véhicule</li>
+                            <li>Aides animalières</li>
+                            <li>Aides spécifiques ou exceptionnelles</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Comment en faire la demande ?</h3>
+                        <p>La demande doit être effectuée :</p>
+                        <ul>
+                            <li>De la Maison Départementale des Personnes Handicapées (MDPH)</li>
+                            <li>Du Centre Communal d'Action Sociale (CCAS)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.service-public.fr/particuliers/vosdroits/F14202" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur cette aide
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="credit-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-percentage service-icon"></i> Crédit d'Impôt Services à la Personne</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Qui peut en bénéficier ?</h3>
+                        <ul>
+                            <li>Tous les particuliers, imposables ou non</li>
+                            <li>Actifs ou retraités</li>
+                            <li>Propriétaires ou locataires</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">En quoi consiste cette aide ?</h3>
+                        <ul>
+                            <li>50% des dépenses annuelles sont remboursées</li>
+                            <li>Plafond de dépenses de 12 000€ par an</li>
+                            <li>Majoration possible selon la situation</li>
+                            <li>Versement d'un acompte de 60% en janvier</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Services éligibles</h3>
+                        <ul>
+                            <li>Aide à domicile</li>
+                            <li>Garde d'enfants</li>
+                            <li>Entretien de la maison</li>
+                            <li>Jardinage et bricolage</li>
+                            <li>Assistance informatique</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.service-public.fr/particuliers/vosdroits/F12" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur cette aide
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="paje-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-baby service-icon"></i> Prestation d'Accueil du Jeune Enfant (PAJE)</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Qui peut en bénéficier ?</h3>
+                        <ul>
+                            <li>Parents d'enfants de moins de 6 ans</li>
+                            <li>Sous conditions de ressources</li>
+                            <li>Emploi d'une garde d'enfant à domicile</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">En quoi consiste cette aide ?</h3>
+                        <ul>
+                            <li>Prime à la naissance ou à l'adoption</li>
+                            <li>Allocation de base mensuelle</li>
+                            <li>Complément de libre choix du mode de garde</li>
+                            <li>Prise en charge partielle des cotisations sociales</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Comment en faire la demande ?</h3>
+                        <p>La demande doit être effectuée :</p>
+                        <ul>
+                            <li>De votre Caisse d'Allocations Familiales (CAF)</li>
+                            <li>De la MSA pour les agriculteurs</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.service-public.fr/particuliers/vosdroits/F2552" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur cette aide
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="adm-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-hand-holding-heart service-icon"></i> Aide à Domicile Momentanée AGIRC-ARRCO</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Qui peut en bénéficier ?</h3>
+                        <ul>
+                            <li>Retraités de plus de 75 ans</li>
+                            <li>Retraités AGIRC-ARRCO</li>
+                            <li>Situation temporaire de fragilité</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">En quoi consiste cette aide ?</h3>
+                        <ul>
+                            <li>Aide temporaire jusqu'à 10h par mois</li>
+                            <li>Durée de 3 mois maximum</li>
+                            <li>Participation financière minime</li>
+                            <li>Services d'aide à domicile</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Comment en faire la demande ?</h3>
+                        <p>La demande doit être effectuée :</p>
+                        <ul>
+                            <li>Par téléphone au 0 971 090 971</li>
+                            <li>Auprès de votre caisse de retraite complémentaire</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.agirc-arrco.fr/action-sociale/aide-domicile-momentanee/" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur cette aide
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="sortirplus-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-walking service-icon"></i> Sortir Plus AGIRC-ARRCO</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Qui peut en bénéficier ?</h3>
+                        <ul>
+                            <li>Retraités de plus de 75 ans</li>
+                            <li>Retraités AGIRC-ARRCO</li>
+                            <li>Sans condition de ressources</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">En quoi consiste cette aide ?</h3>
+                        <ul>
+                            <li>Chéquiers de sortie (valeur de 150€)</li>
+                            <li>Accompagnement pour les déplacements</li>
+                            <li>Participation financière selon le chéquier</li>
+                            <li>Maximum 3 chéquiers par an</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Comment en faire la demande ?</h3>
+                        <p>La demande doit être effectuée :</p>
+                        <ul>
+                            <li>Par téléphone au 0 971 090 971</li>
+                            <li>Auprès de votre caisse de retraite complémentaire</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.agirc-arrco.fr/action-sociale/sortir-plus/" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur cette aide
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modale AMD -->
+        <div id="amd-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-home service-icon"></i> Aide Ménagère à Domicile (AMD)</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Qui peut en bénéficier ?</h3>
+                        <ul>
+                            <li>Personnes âgées de 65 ans et plus (ou 60 ans en cas d'inaptitude au travail)</li>
+                            <li>Personnes ayant des difficultés pour accomplir les tâches ménagères</li>
+                            <li>Sous conditions de ressources</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">En quoi consiste cette aide ?</h3>
+                        <ul>
+                            <li>Aide pour l'entretien du logement</li>
+                            <li>Aide pour l'entretien du linge</li>
+                            <li>Aide à la préparation des repas</li>
+                            <li>Aide aux courses</li>
+                            <li>Accompagnement dans les démarches administratives simples</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Comment en faire la demande ?</h3>
+                        <p>La demande doit être effectuée auprès :</p>
+                        <ul>
+                            <li>Du Centre Communal d'Action Sociale (CCAS) de votre commune</li>
+                            <li>Du Conseil départemental</li>
+                            <li>De votre caisse de retraite</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.service-public.fr/particuliers/vosdroits/F245" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur cette aide
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modale MTP -->
+        <div id="mtp-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-user-nurse service-icon"></i> Majoration pour Tierce Personne (MTP)</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Qui peut en bénéficier ?</h3>
+                        <ul>
+                            <li>Titulaires d'une pension d'invalidité</li>
+                            <li>Personnes nécessitant l'assistance d'une tierce personne</li>
+                            <li>Personnes dans l'incapacité d'exercer une activité professionnelle</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">En quoi consiste cette aide ?</h3>
+                        <ul>
+                            <li>Majoration financière de la pension d'invalidité</li>
+                            <li>Aide pour financer l'intervention d'une tierce personne</li>
+                            <li>Montant forfaitaire non soumis à conditions de ressources</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Comment en faire la demande ?</h3>
+                        <p>La demande doit être effectuée :</p>
+                        <ul>
+                            <li>De votre caisse d'assurance maladie</li>
+                            <li>De votre médecin traitant pour l'évaluation médicale</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.service-public.fr/particuliers/vosdroits/F31434" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur cette aide
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modale ASPA -->
+        <div id="aspa-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-user-friends service-icon"></i> Allocation de Solidarité aux Personnes Âgées (ASPA)</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Qui peut en bénéficier ?</h3>
+                        <ul>
+                            <li>Personnes âgées de 65 ans et plus (ou 62 ans dans certains cas)</li>
+                            <li>Résidant en France de manière stable et régulière</li>
+                            <li>Sous conditions de ressources</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">En quoi consiste cette aide ?</h3>
+                        <ul>
+                            <li>Complément de revenus mensuel</li>
+                            <li>Permet d'atteindre un montant minimum de ressources</li>
+                            <li>Aide non remboursable (sauf succession)</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Comment en faire la demande ?</h3>
+                        <p>La demande doit être effectuée :</p>
+                        <ul>
+                            <li>De votre caisse de retraite principale</li>
+                            <li>De la Caisse des Dépôts</li>
+                            <li>De la MSA pour les agriculteurs</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.service-public.fr/particuliers/vosdroits/F16871" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur cette aide
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modale ASI -->
+        <div id="asi-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-user-shield service-icon"></i> Allocation Supplémentaire d'Invalidité (ASI)</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Qui peut en bénéficier ?</h3>
+                        <ul>
+                            <li>Personnes invalides de moins de 62 ans</li>
+                            <li>Titulaires d'une pension d'invalidité ou de retraite anticipée</li>
+                            <li>Sous conditions de ressources</li>
+                            <li>Résidant en France</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">En quoi consiste cette aide ?</h3>
+                        <ul>
+                            <li>Complément de revenus mensuel</li>
+                            <li>Permet d'atteindre un minimum de ressources</li>
+                            <li>Montant calculé selon les ressources</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Comment en faire la demande ?</h3>
+                        <p>La demande doit être effectuée :</p>
+                        <ul>
+                            <li>De votre caisse d'assurance maladie</li>
+                            <li>De votre caisse de retraite</li>
+                            <li>De la MSA pour les agriculteurs</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.service-public.fr/particuliers/vosdroits/F16940" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur cette aide
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modales pour les services -->
+        <div id="aide-personne-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-hands-helping service-icon"></i> Aide à la personne</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Nos tarifs</h3>
+                        <img src="images/tarifauxiliaire.png" alt="Tarifs aide à la personne" class="tarif-img">
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Aides disponibles</h3>
+                        <ul>
+                            <li>APA (Allocation Personnalisée d'Autonomie)</li>
+                            <li>PCH (Prestation de Compensation du Handicap)</li>
+                            <li>AMD (Aide Ménagère à Domicile)</li>
+                            <li>MTP (Majoration pour Tierce Personne)</li>
+                            <li>ASPA (Allocation de Solidarité aux Personnes Âgées)</li>
+                            <li>ASI (Allocation Supplémentaire d'Invalidité)</li>
+                            <li>Aide sociale départementale</li>
+                            <li>Crédit d'impôt 50%</li>
+                            <li>Aide à domicile momentanée AGIRC-ARRCO</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Services proposés</h3>
+                        <ul>
+                            <li>Aide au lever et au coucher</li>
+                            <li>Aide à la toilette</li>
+                            <li>Aide à l'habillage</li>
+                            <li>Aide aux repas</li>
+                            <li>Aide à la prise de médicaments</li>
+                            <li>Accompagnement aux rendez-vous</li>
+                            <li>Présence et surveillance</li>
+                        </ul>
+                        <p class="note">* Liste non exhaustive des services proposés</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.servizen.fr/nos-services/" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur ce service
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="aide-menagere-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-home service-icon"></i> Aide ménagère</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Nos tarifs</h3>
+                        <img src="images/tarifmenage.png" alt="Tarifs aide ménagère" class="tarif-img">
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Aides disponibles</h3>
+                        <ul>
+                            <li>APA (Allocation Personnalisée d'Autonomie)</li>
+                            <li>PCH (Prestation de Compensation du Handicap)</li>
+                            <li>AMD (Aide Ménagère à Domicile)</li>
+                            <li>ASPA (Allocation de Solidarité aux Personnes Âgées)</li>
+                            <li>ASI (Allocation Supplémentaire d'Invalidité)</li>
+                            <li>Crédit d'impôt 50%</li>
+                            <li>Aide sociale départementale</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Services proposés</h3>
+                        <ul>
+                            <li>Entretien du logement</li>
+                            <li>Entretien du linge</li>
+                            <li>Repassage</li>
+                            <li>Préparation des repas</li>
+                            <li>Vaisselle</li>
+                            <li>Courses</li>
+                        </ul>
+                        <p class="note">* Liste non exhaustive des services proposés</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.servizen.fr/nos-services/" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur ce service
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="transport-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-car service-icon"></i> Transport accompagné</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Nos tarifs</h3>
+                        <img src="images/tarifaccompagnement.png" alt="Tarifs transport accompagné" class="tarif-img">
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Aides disponibles</h3>
+                        <ul>
+                            <li>APA (Allocation Personnalisée d'Autonomie)</li>
+                            <li>PCH (Prestation de Compensation du Handicap)</li>
+                            <li>MTP (Majoration pour Tierce Personne)</li>
+                            <li>ASPA (Allocation de Solidarité aux Personnes Âgées)</li>
+                            <li>ASI (Allocation Supplémentaire d'Invalidité)</li>
+                            <li>Sortir Plus AGIRC-ARRCO</li>
+                            <li>Crédit d'impôt 50%</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Services proposés</h3>
+                        <ul>
+                            <li>Accompagnement aux rendez-vous médicaux</li>
+                            <li>Accompagnement aux courses</li>
+                            <li>Promenades</li>
+                            <li>Sorties culturelles</li>
+                            <li>Visites à la famille ou aux amis</li>
+                        </ul>
+                        <p class="note">* Liste non exhaustive des services proposés</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.servizen.fr/nos-services/" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur ce service
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="jardinage-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-leaf service-icon"></i> Jardinage</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Nos tarifs</h3>
+                        <img src="images/tarifjardinage.png" alt="Tarifs jardinage" class="tarif-img">
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Aides disponibles</h3>
+                        <ul>
+                            <li>APA (Allocation Personnalisée d'Autonomie)</li>
+                            <li>AMD (Aide Ménagère à Domicile)</li>
+                            <li>ASPA (Allocation de Solidarité aux Personnes Âgées)</li>
+                            <li>Crédit d'impôt 50%</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Services proposés</h3>
+                        <ul>
+                            <li>Tonte de pelouse</li>
+                            <li>Désherbage</li>
+                            <li>Taille des haies</li>
+                            <li>Ramassage des feuilles</li>
+                            <li>Entretien des massifs</li>
+                            <li>Plantations</li>
+                        </ul>
+                        <p class="note">* Liste non exhaustive des services proposés</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.servizen.fr/nos-services/" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur ce service
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="bricolage-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-tools service-icon"></i> Bricolage</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Nos tarifs</h3>
+                        <img src="images/tarifbricolage.png" alt="Tarifs bricolage" class="tarif-img">
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Aides disponibles</h3>
+                        <ul>
+                            <li>APA (Allocation Personnalisée d'Autonomie)</li>
+                            <li>AMD (Aide Ménagère à Domicile)</li>
+                            <li>ASPA (Allocation de Solidarité aux Personnes Âgées)</li>
+                            <li>Crédit d'impôt 50%</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Services proposés</h3>
+                        <ul>
+                            <li>Petites réparations</li>
+                            <li>Montage de meubles</li>
+                            <li>Fixation d'étagères</li>
+                            <li>Installation de tringles</li>
+                            <li>Changement d'ampoules</li>
+                            <li>Peinture</li>
+                        </ul>
+                        <p class="note">* Liste non exhaustive des services proposés</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.servizen.fr/nos-services/" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur ce service
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="garde-enfants-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-child service-icon"></i> Garde d'enfants</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Nos tarifs</h3>
+                        <img src="images/tarifenfant.png" alt="Tarifs garde d'enfants" class="tarif-img">
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Aides disponibles</h3>
+                        <ul>
+                            <li>PAJE (Prestation d'Accueil du Jeune Enfant)</li>
+                            <li>CMG (Complément de libre choix du Mode de Garde)</li>
+                            <li>Crédit d'impôt 50%</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Services proposés</h3>
+                        <ul>
+                            <li>Garde à domicile</li>
+                            <li>Aide aux devoirs</li>
+                            <li>Activités d'éveil</li>
+                            <li>Préparation des repas</li>
+                            <li>Accompagnement école/activités</li>
+                        </ul>
+                        <p class="note">* Liste non exhaustive des services proposés</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.servizen.fr/nos-services/" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur ce service
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="informatique-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-laptop service-icon"></i> Assistance informatique</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Nos tarifs</h3>
+                        <img src="images/tarifinfo.png" alt="Tarifs assistance informatique" class="tarif-img">
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Aides disponibles</h3>
+                        <ul>
+                            <li>APA (Allocation Personnalisée d'Autonomie)</li>
+                            <li>PCH (Prestation de Compensation du Handicap)</li>
+                            <li>ASI (Allocation Supplémentaire d'Invalidité)</li>
+                            <li>Crédit d'impôt 50%</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Services proposés</h3>
+                        <ul>
+                            <li>Initiation à l'informatique</li>
+                            <li>Installation de logiciels</li>
+                            <li>Configuration d'appareils</li>
+                            <li>Aide à l'utilisation d'internet</li>
+                            <li>Dépannage informatique</li>
+                        </ul>
+                        <p class="note">* Liste non exhaustive des services proposés</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.servizen.fr/nos-services/" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur ce service
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="teleassistance-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-phone-alt service-icon"></i> Téléassistance</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Nos tarifs</h3>
+                        <img src="images/tariftele.png" alt="Tarifs téléassistance" class="tarif-img">
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Aides disponibles</h3>
+                        <ul>
+                            <li>APA (Allocation Personnalisée d'Autonomie)</li>
+                            <li>PCH (Prestation de Compensation du Handicap)</li>
+                            <li>MTP (Majoration pour Tierce Personne)</li>
+                            <li>ASPA (Allocation de Solidarité aux Personnes Âgées)</li>
+                            <li>ASI (Allocation Supplémentaire d'Invalidité)</li>
+                            <li>Aide sociale départementale</li>
+                            <li>Crédit d'impôt 50%</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Services proposés</h3>
+                        <ul>
+                            <li>Assistance 24h/24 et 7j/7</li>
+                            <li>Installation du matériel</li>
+                            <li>Maintenance du système</li>
+                            <li>Géolocalisation</li>
+                            <li>Détection de chute</li>
+                        </ul>
+                        <p class="note">* Liste non exhaustive des services proposés</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.servizen.fr/nos-services/" target="_blank" class="servizen-button">
+                        <i class="fas fa-info-circle"></i>
+                        En savoir plus sur ce service
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ServIA Chatbot -->
+    <div class="chatbot">
+        <button id="chatToggle" class="chat-toggle">
+            <i class="fas fa-comments"></i>
+            <span>ServIA - Votre assistant</span>
+        </button>
+        
+        <div id="chatWindow" class="chat-window">
+            <div class="chat-header">
+                <div class="chat-title">
+                    <i class="fas fa-robot"></i>
+                    <span>ServIA</span>
+                </div>
+                <div class="chat-controls">
+                    <button id="resetChat" class="reset-chat" title="Recommencer">
+                        <i class="fas fa-redo-alt"></i>
+                    </button>
+                    <button id="minimizeChat" class="minimize-chat" title="Réduire">
+                        <i class="fas fa-minus"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div id="chatMessages" class="chat-messages"></div>
+            <div id="chatChoices" class="chat-choices"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Servizen - Services à la personne</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
