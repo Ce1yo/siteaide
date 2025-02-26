@@ -339,8 +339,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     aides: ["Sortir Plus", "APA", "PCH"]
                 },
                 financial: {
-                    message: "Pour le soutien financier, vous pouvez bénéficier de :",
-                    aides: ["ASPA", "ASI", "Crédit d'Impôt"]
+                    message: "Pour le soutien financier, voici les aides disponibles :",
+                    aides: ["Crédit d'Impôt"]
                 }
             },
             handicap: {
@@ -358,7 +358,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 financial: {
                     message: "Pour le soutien financier, voici les aides possibles :",
-                    aides: ["ASI", "PCH", "Crédit d'Impôt"]
+                    aides: ["PCH", "Crédit d'Impôt"]
                 }
             },
             enfant: {
@@ -386,7 +386,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 disability: {
                     message: "En tant que personne en situation de handicap, vous pouvez bénéficier de :",
-                    aides: ["PCH", "ASI", "Crédit d'Impôt"]
+                    aides: ["PCH", "Crédit d'Impôt"]
                 },
                 temporary: {
                     message: "Pour une aide temporaire, voici les dispositifs disponibles :",
@@ -394,7 +394,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 financial: {
                     message: "Pour vous aider financièrement, ces aides sont disponibles :",
-                    aides: ["ASPA", "ASI", "Crédit d'Impôt"]
+                    aides: ["Crédit d'Impôt"]
                 }
             }
         },
@@ -441,15 +441,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 description: "Aide financière pour les personnes nécessitant une aide constante",
                 url: "https://www.service-public.fr/particuliers/vosdroits/F31434"
             },
-            'ASPA': {
-                title: "Allocation de Solidarité aux Personnes Âgées",
-                description: "Aide financière pour les personnes âgées à faibles revenus",
-                url: "https://www.service-public.fr/particuliers/vosdroits/F16871"
-            },
-            'ASI': {
-                title: "Allocation Supplémentaire d'Invalidité",
-                description: "Complément de revenus pour les personnes invalides",
-                url: "https://www.service-public.fr/particuliers/vosdroits/F16940"
+            'AEEH': {
+                title: "Allocation d'Éducation de l'Enfant Handicapé",
+                description: "Aide financière pour les enfants en situation de handicap",
+                url: "https://www.service-public.fr/particuliers/vosdroits/F161"
             }
         }
     };
