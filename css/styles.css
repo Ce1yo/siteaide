@@ -34,10 +34,10 @@ header {
 }
 
 .logo {
-    height: 100px;
+    height: 300px;
     transition: transform 0.3s ease;
     margin: 0;
-    width: 300px;
+    width: 600px;
     height: auto;
     max-width: 90%;
 }
